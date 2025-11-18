@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import professionalImage from '../assets/professional-image1.jpg';
 import arrow from "../assets/arrow.png";
+import resume from "../assets/Developer Resume Clean.pdf"
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 export default function Header() {
@@ -58,7 +59,7 @@ export default function Header() {
           {/* Buttons */}
           <div className="flex gap-4 mb-10">
             <button className="bg-yellow-400 font-semibold px-6 py-2 rounded-full">
-              <a href="">RESUME</a>
+              <a href={resume}>RESUME</a>
             </button>
             <button className="border-2 border-black font-semibold px-6 py-2 rounded-full">
               <a href="https://github.com/BrettM265/">GITHUB</a>

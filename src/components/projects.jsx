@@ -1,41 +1,47 @@
 import { motion } from "framer-motion";
+import gameshop from '../assets/game-shop.png';
+import weatherApp from '../assets/weather-app3.png';
+import ticTacToe from '../assets/tiktaktoe.png';
+import taxApp from '../assets/tax-app2.png';
+import calculator from '../assets/calculator.png';
+import pizzaShop from '../assets/pizza shop.png';
+
 
 export default function Projects() {
   const mainProjects = [
     {
       id: 1,
       title: "Tax Application",
-      img: "src/assets/tax-app2.png",
+      img: taxApp,
       desc: "Currently in the development phase, this application gives you tax calculations based on your income. I'm currently integrating AI features for the user to ask more specific tax questions. This application will be launched on AWS.",
       link: "#"
     },
     {
       id: 2,
       title: "Video Game Shop",
-      img: "src/assets/game-shop.png",
+      img: gameshop,
       desc: "A React based e-commerce website for video games, featuring product listings, shopping cart functionality, and a user-friendly interface.",
       link: "https://brettm265.github.io/game-shop/"
     },
     {
       id: 3,
       title: "Weather API App",
-      img: "src/assets/weather-app3.png",
+      img: weatherApp,
       desc: "A mobile focused weather application built with React that provides real-time weather updates, forecasts, and location-based services. These features are implemented using the OpenWeatherMap API.",
       link: "https://brettm265.github.io/Weather-App/"
     },
     {
       id: 4,
       title: "Tic Tac Toe Game",
-      img: "src/assets/tiktaktoe.png",
+      img: ticTacToe,
       desc: "A fun and interactive Tic Tac Toe game built with JavaScript, HTML, and CSS. Play against a friends!",
       link: "https://brettm265.github.io/TicTacToe/"
     },
   ];
 
   const miniProjects = [
-    { id: 5, img: "src/assets/calculator.png", link: "https://brettm265.github.io/JSCalculator/" },
-    { id: 6, img: "src/assets/pizza shop.png", link: "https://brettm265.github.io/Pizza-Website/#/" },
-    { id: 7, img: "/projects/mini3.png", link: "https://your-link.com" },
+    { id: 5, img: calculator, link: "https://brettm265.github.io/JSCalculator/" },
+    { id: 6, img: pizzaShop, link: "https://brettm265.github.io/Pizza-Website/#/" },
   ];
 
   return (

@@ -18,7 +18,7 @@ const Experience = () => {
       time: "2023 — present",
       description:
         `• Designed, built, and optimized responsive websites and web applications using React.js, Node.js, and modern CSS frameworks such as Tailwind and Bootstrap.
-• Integrated AI-powered features including chatbots, content generation tools, and LLM-driven workflows using OpenAI, LangChain, and vector database retrieval.
+•  Integrated AI-powered features including chatbots, content generation tools, and LLM-driven workflows using OpenAI.
 • Collaborated with clients to define project requirements, deliver scalable solutions, and improve site performance, accessibility, and SEO visibility.
 `
     },
@@ -27,7 +27,7 @@ const Experience = () => {
       company: "Freelance",
       time: "2024 — present",
       description:
-        `• Develop and maintain responsive web applications using a variety of front-end and back-end technologies, including React, Node.js, and MongoDB, ensuring high performance and scalability.
+        `• Develop and maintain responsive web applications using a variety of front-end and back-end technologies, including React, Node.js, and SQL, ensuring high performance and scalability.
 • Collaborate with clients to define project requirements, implement features, and provide technical guidance throughout the development lifecycle.
 • Implement end-to-end solutions, from user interface design and server-side logic to database management and API integration, ensuring seamless user experiences.`
     },
