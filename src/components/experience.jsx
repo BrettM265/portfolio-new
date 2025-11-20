@@ -27,7 +27,7 @@ const Experience = () => {
       company: "Freelance",
       time: "2024 — present",
       description:
-        `• Develop and maintain responsive web applications using a variety of front-end and back-end technologies, including React, Node.js, and SQL, ensuring high performance and scalability.
+        `• Develop and maintain responsive web applications using a variety of front-end and back-end technologies, including Next.js, Node.js, and SQL, ensuring high performance and scalability.
 • Collaborate with clients to define project requirements, implement features, and provide technical guidance throughout the development lifecycle.
 • Implement end-to-end solutions, from user interface design and server-side logic to database management and API integration, ensuring seamless user experiences.`
     },
