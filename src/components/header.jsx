@@ -58,7 +58,7 @@ export default function Header() {
           {/* Buttons */}
           <div className="flex gap-4 mb-10">
             <button className="bg-yellow-400 font-semibold px-6 py-2 rounded-full">
-              <a href="/Developer Resume Clean.pdf">RESUME</a>
+              <a href="/Developer Resume Clean.pdf"  download="/Developer Resume Clean.pdf">RESUME</a>
             </button>
             <button className="border-2 border-black font-semibold px-6 py-2 rounded-full">
               <a href="https://github.com/BrettM265/">GITHUB</a>
