@@ -14,7 +14,7 @@ export default function Footer() {
           Brett Morrison
         </h2>
         <p className="text-gray-400 text-center mb-6">
-          Full Stack Developer
+          Front End Developer
         </p>
 
         {/* Contact Email */}
