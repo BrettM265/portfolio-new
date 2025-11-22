@@ -57,7 +57,7 @@ const Experience = () => {
         {experiences.map((job, index) => (
           <motion.div
             key={index}
-            className="bg-white p-6 rounded-xl shadow-md border-l-4 border-yellow-400"
+            className="bg-white p-6 rounded-xl shadow-md border-l-4 border-[#b7e4c0]"
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: index * 0.15 }}

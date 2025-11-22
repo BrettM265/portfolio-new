@@ -67,14 +67,16 @@ export default function Projects() {
             <div className="p-6 text-left">
               <h3 className="text-2xl font-bold text-gray-800">{project.title}</h3>
               <p className="text-gray-600 mt-2">{project.desc}</p>
+              <div className="flex justify-center">
               <a 
                 href={project.link} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block mt-4 bg-yellow-400 px-5 py-2 text-sm font-semibold rounded-full"
+                className="inline-block mt-4 bg-[#b7e4c0] px-5 py-2 text-sm font-semibold rounded-full  "
               >
                 VIEW PROJECT
               </a>
+              </div>
             </div>
           </motion.div>
         ))}
