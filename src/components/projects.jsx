@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import gameshop from '../assets/game-shop.png';
 import weatherApp from '../assets/weather-app3.png';
 import ticTacToe from '../assets/tiktaktoe.png';
-import taxApp from '../assets/tax-app2.png';
+import taxApp from '../assets/tax-app3.png';
 import calculator from '../assets/calculator.png';
 import pizzaShop from '../assets/pizza shop.png';
 
@@ -11,10 +11,10 @@ export default function Projects() {
   const mainProjects = [
     {
       id: 1,
-      title: "Tax Application",
+      title: "BrettBot Tax Estimator",
       img: taxApp,
-      desc: "Currently in the development phase, this application gives you tax calculations based on your income. I'm currently integrating AI features for the user to ask more specific tax questions. This application will be launched on AWS.",
-      link: "#"
+      desc: "A smart ChatGPT powered tax robot that makes estimating your 2026 taxes easy. Just enter your income, state, and dependents. Or tap any of the built-in buttons to ask common tax questions without needing to know how to prompt AI. Fast, simple tax insights at your fingertips.",
+      link: "https://taxbot.brettmorrisondev.com/"
     },
     {
       id: 2,
