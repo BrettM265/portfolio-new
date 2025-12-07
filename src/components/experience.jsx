@@ -7,8 +7,8 @@ const Experience = () => {
       company: "Logical Postion",
       time: "2021 — Present",
       description:
-        `• Completed Technical SEO audits and implemented on-page optimizations that increases organic traffic.
-        • Developed and maintained responsive, high-performance web applications using React.js, Next.js, and TypeScript, ensuring seamless cross-browser compatibility and accessibility (WCAG standards).
+        `• Completed Technical SEO audits and implemented on page optimizations that increases organic traffic.
+        • Developed and maintained responsive, high performance web applications using React.js, Next.js, and TypeScript, ensuring seamless cross browser compatibility and accessibility (WCAG standards).
 • Translated design mockups into mobile first interfaces using HTML5, CSS3, Sass, TailwindCSS, and Bootstrap.
 • Collaborated closely with designers to refine user experience, improve usability, and implement consistently user friendly UI/UX.
 `},
@@ -18,7 +18,7 @@ const Experience = () => {
       time: "2023 — present",
       description:
         `• Designed, built, and optimized responsive websites and web applications using React.js, Node.js, and modern CSS frameworks such as Tailwind and Bootstrap.
-•  Integrated AI-powered features including chatbots, content generation tools, and LLM-driven workflows using OpenAI.
+•  Integrated AI powered features including chatbots, content generation tools, and LLM driven workflows using OpenAI.
 • Collaborated with clients to define project requirements, deliver scalable solutions, and improve site performance, accessibility, and SEO visibility.
 `
     },
@@ -27,9 +27,9 @@ const Experience = () => {
       company: "Freelance",
       time: "2024 — present",
       description:
-        `• Develop and maintain responsive web applications using a variety of front-end and back-end technologies, including Next.js, Node.js, and SQL, ensuring high performance and scalability.
+        `• Develop and maintain responsive web applications using a variety of frontend and backend technologies, including Next.js, Node.js, and SQL, ensuring high performance and scalability.
 • Collaborate with clients to define project requirements, implement features, and provide technical guidance throughout the development lifecycle.
-• Implement end-to-end solutions, from user interface design and server-side logic to database management and API integration, ensuring seamless user experiences.`
+• Implement end to end solutions, from user interface design and server side logic to database management and API integration, ensuring seamless user experiences.`
     },
     {
       role: "Retail Jobs",
