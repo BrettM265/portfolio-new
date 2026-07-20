@@ -29,7 +29,7 @@ export default function Header() {
           <div className="w-10 h-[3px] bg-yellow-400 mx-auto my-4"></div>
 
           <p className="text-sm tracking-widest text-gray-700">
-            Front-End Developer
+            Developer and Designer
           </p>
 
           {/* Social Icons */}
