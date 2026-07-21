@@ -29,7 +29,7 @@ export default function Header() {
           <div className="w-10 h-[3px] bg-yellow-400 mx-auto my-4"></div>
 
           <p className="text-sm tracking-widest text-gray-700">
-            Developer and Designer
+            Senior Frontend Developer & UI/UX Designer
           </p>
 
           {/* Social Icons */}
@@ -46,22 +46,27 @@ export default function Header() {
           transition={{ duration: 0.6 }}
           className="text-gray-900"
         >
-          <h1 className="text-6xl font-extrabold mb-6">Hello! {/*<img src={waving}/>*/}</h1>
+          <h1 className="text-6xl font-extrabold mb-6">Hello World!</h1>
 
           <p className="text-lg leading-relaxed mb-8 text-gray-700">
-            I’m a Developer specializing in building exceptional digital
-            experiences. Currently, I’m focused on building responsive web
-            applications. My expertise is in JavaScript, React, Next.js, Python, integrating API's and
-            designing user-friendly interfaces. But I'm creating new projects everyday containing different tech stacks to expand my knowledge! And launching them on various hosting platforms.
+            I'm a senior developer and designer passionately building fast, responsive web applications with React, Next.js, and Python. With expertise and experience in SEO, AI integration, and web design!
           </p>
 
           {/* Buttons */}
-          <div className="flex gap-4 mb-10">
-            <button className="bg-yellow-400 font-semibold px-6 py-2 rounded-full">
-              <a href="/Clean Developer Resume.pdf"  download="/Clean Developer Resume.pdf">RESUME</a>
+          <div className="flex gap-4 mb-5">
+            <button className="bg-yellow-400 border-2 border-black font-semibold px-6 py-2 rounded-full">
+              <a href="/Clean Developer Resume.pdf"  download="/Clean Developer Resume.pdf">Resume</a>
             </button>
-            <button className="border-2 border-black font-semibold px-6 py-2 rounded-full">
-              <a href="https://github.com/BrettM265/">GITHUB</a>
+            <button className="bg-yellow-400 border-2 border-black font-semibold px-6 py-2 rounded-full">
+              <a href="https://github.com/BrettM265/">Github</a>
+            </button>
+          </div>
+          <div className="flex gap-4 mb-10">
+          <button className="bg-[#b7e4c0] border-2 border-black font-semibold px-6 py-2 rounded-full">
+              <a href="#web-design">Web Designs</a>
+            </button>
+            <button className="bg-[#b7e4c0] border-2 border-black font-semibold px-6 py-2 rounded-full">
+              <a href="#projects">Web Applications</a>
             </button>
           </div>
           

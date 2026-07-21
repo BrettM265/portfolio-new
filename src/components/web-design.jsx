@@ -35,7 +35,7 @@ export default function WebDesign() {
 
     return (
 
-    <section id="projects" className="w-full bg-gray-100 py-24 px-6">
+    <section id="web-design" className="w-full bg-gray-100 py-24 px-6">
       <div className="max-w-6xl mx-auto text-center mb-16">
         <h2 className="text-5xl font-extrabold text-gray-900">Web Design</h2>
         <p className="text-gray-600 mt-4">A few of my Website Designs!</p>
