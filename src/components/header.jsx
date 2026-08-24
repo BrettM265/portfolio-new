@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import professionalImage from '../assets/professional-image1.jpg';
+import profimage2 from '../assets/Work-image2.png';
 import arrow from "../assets/arrow.png";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
@@ -18,7 +19,7 @@ export default function Header() {
         >
           <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-6">
             <img 
-              src={professionalImage}
+              src={profimage2}
               alt="Profile"
               className="w-full h-full object-cover"
             />
