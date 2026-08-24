@@ -85,7 +85,7 @@ export default function Header() {
           animate={{ y: [0, 12, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
           onClick={() =>
-            document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
+            document.getElementById("web-design")?.scrollIntoView({ behavior: "smooth" })
           }
         />
       </div>
